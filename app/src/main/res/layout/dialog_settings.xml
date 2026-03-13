@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/bg_card">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleep Goal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvCurrentGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Goal: 8h 00m"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnPickTime"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Set Sleep Goal"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/accent_blue"
+        android:stateListAnimator="@null"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Management"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnClearData"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Clear All History"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/btn_stop"
+        android:stateListAnimator="@null"/>
+</LinearLayout>
